@@ -31,7 +31,7 @@ struct Language: Codable {
   let nativeName: String
 }
 
-struct Track {
+struct Track: Codable {
   let artistId : Int
   let artistName: String
   let collectionName: String

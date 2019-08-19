@@ -45,6 +45,9 @@ extension FirstViewController: UITableViewDataSource {
       cell.nameLabel.text = country.name
       cell.capitalLabel.text = "Capital: \(country.capital)"
       cell.flagImageView.kf.setImage(with: URL(string: "https://www.countryflags.io/\(country.alpha2Code)/flat/64.png"))
+        if country.capital == "" {
+            cell.capitalLabel.text = "Capital: -"
+        }
     }
     return cell
   }

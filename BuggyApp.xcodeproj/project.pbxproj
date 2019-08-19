@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66313749230AA023007AD652 /* ShowNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66313748230AA023007AD652 /* ShowNameViewController.swift */; };
 		67BF3DA3C0B23932733B9107 /* Pods_BuggyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96678414E5A2A7BB58448564 /* Pods_BuggyApp.framework */; };
 		AE2873C822CA78E0004B4671 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2873C722CA78E0004B4671 /* TrackTableViewCell.swift */; };
 		AE2873CA22CA8B7B004B4671 /* MusicTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2873C922CA8B7B004B4671 /* MusicTracksViewController.swift */; };
@@ -42,6 +43,7 @@
 		3B460585BBA02A6B2984F37B /* Pods-BuggyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyApp.debug.xcconfig"; path = "Target Support Files/Pods-BuggyApp/Pods-BuggyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		55F06A15BC6F80C68E57AD54 /* Pods-BuggyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BuggyAppTests/Pods-BuggyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		662E6907135100BC9FA04336 /* Pods_BuggyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuggyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66313748230AA023007AD652 /* ShowNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNameViewController.swift; sourceTree = "<group>"; };
 		7274C5F7029EB10AD8B0087D /* Pods-BuggyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuggyApp.release.xcconfig"; path = "Target Support Files/Pods-BuggyApp/Pods-BuggyApp.release.xcconfig"; sourceTree = "<group>"; };
 		96678414E5A2A7BB58448564 /* Pods_BuggyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuggyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2873C722CA78E0004B4671 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				AE2873C922CA8B7B004B4671 /* MusicTracksViewController.swift */,
 				AE2873CB22CA8BA7004B4671 /* MusicTrackDetailViewController.swift */,
 				BF1E2B4122C5D69500C65524 /* ThirdViewController.swift */,
+				66313748230AA023007AD652 /* ShowNameViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				BFEFE82422C60CD800A3B7EB /* Model.swift in Sources */,
 				AE2873CC22CA8BA7004B4671 /* MusicTrackDetailViewController.swift in Sources */,
 				AE2873CA22CA8B7B004B4671 /* MusicTracksViewController.swift in Sources */,
+				66313749230AA023007AD652 /* ShowNameViewController.swift in Sources */,
 				AE2873C822CA78E0004B4671 /* TrackTableViewCell.swift in Sources */,
 				BFEFE82222C60BFF00A3B7EB /* ApiManager.swift in Sources */,
 				BFEFE82622C615A400A3B7EB /* CurrencyCell.swift in Sources */,
