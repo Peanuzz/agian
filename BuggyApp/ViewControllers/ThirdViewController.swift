@@ -30,6 +30,7 @@ class ThirdViewController: UIViewController, UITextFieldDelegate{
         if (segue.identifier == "data") {
             let svc = segue.destination as! ShowNameViewController
             svc.name = nameTextField.text!
+            
         }
     }
 }
