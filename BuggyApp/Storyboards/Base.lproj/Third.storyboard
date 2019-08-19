@@ -25,7 +25,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <segue destination="Yjp-Kq-1a1" kind="show" id="mMF-Cj-OGL"/>
+                                    <segue destination="Yjp-Kq-1a1" kind="show" identifier="data" id="mMF-Cj-OGL"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your name (nickname)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbx-6G-m3A">
@@ -75,7 +75,7 @@
                         <viewLayoutGuide key="safeArea" id="3SJ-td-tjz"/>
                     </view>
                     <connections>
-                        <outlet property="mName" destination="kOd-Fl-GF6" id="7sE-Ot-ymS"/>
+                        <outlet property="mName" destination="kOd-Fl-GF6" id="vph-jw-aFt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfe-db-Mju" userLabel="First Responder" sceneMemberID="firstResponder"/>
