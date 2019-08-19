@@ -37,12 +37,14 @@ class MusicTracksViewController: UIViewController {
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if segue.identifier == "showDetail",
-      let viewController = segue.destination as? MusicTrackDetailViewController,
-      let selectedTrack = sender as? Track {
-      viewController.track = selectedTrack
-    }
+    if segue.identifier == "showDetail" {
+      let viewController = segue.destination as? MusicTrackDetailViewController
+      let indexPath = tableView.indexPathForSelectedRow
+        if let indexPath = indexPath {
+            viewController?.track = tracks[(indexPath as NSIndexPath).row]
+        }
   }
+    }
 }
 
 extension MusicTracksViewController: UITableViewDataSource {

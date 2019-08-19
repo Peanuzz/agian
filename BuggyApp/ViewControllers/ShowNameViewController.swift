@@ -11,11 +11,11 @@ import UIKit
 class ShowNameViewController: UIViewController {
     
     @IBOutlet weak var mName:UILabel!
-    var name:String!
+    var name:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mName?.text = name
+        mName.text = name
         
     }
 
